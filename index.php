@@ -30,7 +30,7 @@
                     <a class="nav-link nav1" href="#">Home</a>
                  </li>
                 <li class="nav-item">
-                    <a class="nav-link nav2" href="#">Admission</a>
+                    <a class="nav-link nav2" href="admission.php">Admission</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link nav2" href="#">Media</a>

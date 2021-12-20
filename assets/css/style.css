@@ -314,3 +314,52 @@ footer {
 	font-size: 30px;
 	padding:5px 5px 5px 5px;
 }
+
+.academic-content span{
+    width:10%;
+    display:block;
+    margin:auto;
+    border:1px solid white;
+}
+.academic-content h2{
+    color:whitesmoke;
+}
+.academic-content p{
+    margin-top:20px;
+    color:whitesmoke;
+}
+.acad{
+    background-color: #0B0F27;
+}
+.acad-content h2{
+    color:white;
+}
+.acad-content span{
+    width:10%;
+    display:block;
+    margin:auto;
+    border:1px solid white;
+}
+.acad-content a{
+    color:white;
+    font-weight: 600;
+}
+.get-in-touch{
+    background-color: #fff;
+}
+.get-in-touch i{
+    color:#88C83C;
+}
+.form-group button{
+    text-align: center;
+    margin:0 auto;
+    color:white;
+    font-size:600;
+    background-color:#88C83C;
+    width:100%;
+    cursor: pointer;
+}
+.form-group button:hover{
+    color:white;
+}
+
