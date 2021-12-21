@@ -36,10 +36,10 @@
                     <a class="nav-link nav2" href="#">Media</a>
                  </li>
                  <li class="nav-item">
-                    <a class="nav-link nav2" href="#">About us</a>
+                    <a class="nav-link nav2" href="about_us.php">About us</a>
                  </li>
                 <li class="nav-item">
-                    <a class="nav-link nav2" href="#">Contact</a>
+                    <a class="nav-link nav2" href="contact_us.php">Contact</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle nav2" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

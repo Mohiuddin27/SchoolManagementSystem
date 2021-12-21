@@ -362,4 +362,52 @@ footer {
 .form-group button:hover{
     color:white;
 }
-
+.welcome{
+    background-color: #fff;
+  
+}
+.welcome h2{
+    color:#554945;
+}
+.welcome p{
+    margin-bottom:20px;
+}
+.about2{
+    color:white;
+}
+.about2 h2{
+    color:#88C83C;
+}
+.s{
+    width:20%;
+    display:block;
+    border:1px solid white;
+    float:left;
+}
+.banner img{
+    display:block;
+    margin:auto;
+}
+.vision{
+    color:white;
+}
+.v{
+    width:15%;
+    display:block;
+    border:1px solid white;
+    float:left;
+}
+.vision{
+    background-color: #161E4D;
+}
+.visi1 p{
+    font-size:17px;
+}
+.btnn{
+    text-align: center;
+    margin:0 auto;
+    display:inline-block;
+    color:white;
+    background-color: #88C83C;
+    
+}

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -11,7 +11,7 @@
 	<link rel="stylesheet" href="assets/css/responsive.css">
 
 </head>
-<body>
+<body >
 	
     <section class="header">
        <nav class="navbar  navbar-expand-lg navbar-light bg-black">
@@ -29,7 +29,7 @@
                     <a class="nav-link nav2" href="index.php">Home</a>
                  </li>
                 <li class="nav-item">
-                    <a class="nav-link nav1" href="admission.php">Admission</a>
+                    <a class="nav-link nav2" href="admission.php">Admission</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link nav2" href="#">Media</a>
@@ -38,7 +38,7 @@
                     <a class="nav-link nav2" href="about_us.php">About us</a>
                  </li>
                 <li class="nav-item">
-                    <a class="nav-link nav2" href="contact_us.php">Contact</a>
+                    <a class="nav-link nav1" href="contact_us.php">Contact</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle nav2" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -56,46 +56,11 @@
        </div>
     </nav>
 
-  <!-- background image section start -->
-  <section class="background">
-       <img style="width:100%"src="media/b4.png" alt="background">
+   </section>
+   <section>
+       <img style="width:100%"src="media/b8.png">
   </section>
-  <!-- background image section end -->
-  <!-- academic section start -->
-  <section class="academic pt-5">
-      <div class="academic-content">
-          <h2 class="text-center">Academics</h2>
-          <span></span>
-          <p class="text-center mb-5">High is a nationally recognized K-12 independent school situatedin the hills of Oakland, California. Our mission is to inspire<br> a maplifelonglove of learning with a focus on scholarship. For 23 years of existence,Ed hasmore.</p>
-      </div>
-  </section>
-  <!-- academic section end -->
-<!-- acad-section-start -->
- <section class="acad pt-5 pb-5">
-     <div class="container">
-     <div class="acad-content">
-         <h2 class="text-center">Academics</h2>
-         <span class="mb-5"></span>
-         <div class="row">
-             <div class="col-md-4 text-center">
-              <img class="w-25" src="media/01.png"><br><br>
-              <a href="#">HOW TO APPLY</a>
-             </div>
-             <div class="col-md-4 text-center">
-             <img  class="w-25" src="media/02.png"><br><br>
-              <a href="#">ADMISSION FORM</a>
-             </div>
-             <div class="col-md-4 text-center">
-             <img  class="w-25 mt-1" src="media/03.png"><br><br>
-              <a class="mt-5" href="#">FEES POLICY</a>
-             </div>
-         </div>
-     </div>
-     </div>
- </section>
-<!-- acad-section-end -->
-<!-- get-in-touch-section-start -->
-<section class="get-in-touch ">
+  <section class="get-in-touch ">
     <div class="container">
     <div class="row">
         <div class="col-md-6">
@@ -127,7 +92,7 @@ SAY SOMETHING</h4>
 					</div>
 					
 					<div class="form-group">
-                    <button class="btn" type="button">SEND</button>
+                    <input type="button" class="btn  btnn" value="SEND">
                   
                     </div>
 				</form>
@@ -137,18 +102,7 @@ SAY SOMETHING</h4>
     </div>
     </div>
 </section>
-<!-- get-in-touch-section-start -->
-<section class="welcome">
-    <div class="container">
-        <h2>welcome !</h2>
-        <p>Education is a primary need for today’s existence. It is not a commodity only for the rich and elite but for every human being in order to survive and sustain a balance in society.
-
-School should be a happy place where children can find pleasure and success. British Standard School was established with the aim of combining ambitious academic and quality education to accomplish requirements to fit the children into a position in society and for important tasks they may be called upon to discharge in today’s competitive world.
-Every child has something to offer.</p><br><br>
-    </div>
-</section>
-
- <!-- footer-start -->
+<!-- footer-start -->
 <section class="mt-3">
 <div class="container">
   <div class="row">
@@ -168,9 +122,6 @@ Every child has something to offer.</p><br><br>
 </scection>
 
 <!-- footer-end -->
-
-
-
 	<!-- JS FILES  -->
   <script src="assets/js/script.js"></script>
 	<script src="assets/js/jquery-3.4.1.min.js"></script>
@@ -179,4 +130,3 @@ Every child has something to offer.</p><br><br>
 	<script src="assets/js/custom.js"></script>
 </body>
 </html>
-
