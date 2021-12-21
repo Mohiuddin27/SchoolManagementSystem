@@ -26,10 +26,10 @@
            <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav ml-auto mt-1">
                  <li class="nav-item">
-                    <a class="nav-link nav1" href="#">Home</a>
+                    <a class="nav-link nav2" href="index.php">Home</a>
                  </li>
                 <li class="nav-item">
-                    <a class="nav-link nav2" href="#">Admission</a>
+                    <a class="nav-link nav1" href="admission.php">Admission</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link nav2" href="#">Media</a>
@@ -139,7 +139,26 @@ SAY SOMETHING</h4>
 </section>
 <!-- get-in-touch-section-start -->
 
- 
+ <!-- footer-start -->
+<section class="mt-3">
+<div class="container">
+  <div class="row">
+    <div class="col-md-7">
+    <img src="media/b1.png" alt="b1">
+    <img src="media/b2.png" alt="b2">
+      
+    </div>
+    <div class="col-md-5 text-center">
+    <i class="fab fa-facebook"></i>
+    <i class="fab fa-twitter"></i>
+    <i class="fab fa-youtube"></i>
+    <i class="fas fa-envelope"></i>
+    </div>
+  </div>
+</div>
+</scection>
+
+<!-- footer-end -->
 
 
 
