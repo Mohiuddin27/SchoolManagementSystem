@@ -147,7 +147,7 @@ To develop every individual to BUILD A NATION THROUGH EDUCATION. It is our appro
 </section>
 <!-- method-end -->
 <!-- vision start -->
-<section class="vision">
+<section class="visioni">
   <div class="container">
     <div class="row">
       <div class="col-md-7 vision1">
