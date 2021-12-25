@@ -36,10 +36,10 @@
                     <a class="nav-link nav2" href="about_us.php">About us</a>
                  </li>
                 <li class="nav-item">
-                    <a class="nav-link nav1" href="contact_us.php">Contact</a>
+                    <a class="nav-link nav2" href="contact_us.php">Contact</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link nav2" href="career.php">Career</a>
+                    <a class="nav-link nav1" href="career.php">Career</a>
                  </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle nav2" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -58,10 +58,40 @@
     </nav>
 
    </section>
-   <section>
-       <img style="width:100%"src="media/b8.png">
-  </section>
-  <section class="get-in-touch ">
+   <section">
+    <img style="width:100%;"src="media/b9.png">
+   </section>
+   <!-- application section start -->
+    <section class="application">
+        <div class="container">
+        <h2 class="text-center pt-5">Application Process</h2>
+        <p>Our Little Masters’ International School is an English medium school requiring that teachers be fluent in English.</p>
+        <span ></span>
+
+        <h3>When should I apply? </h3>
+        <p>Recruitment activities take place throughout the year, concentrated mainly in December-January and May-June.</p>
+        <h3>How do I find out what positions are available? </h3>
+        <p>All of our vacancies are advertised on our website or newspaper .Upon final selection candidates are required to provide copies of valid passport or National Id Card, attested qualification certificates (degree and teaching qualification) and recent police clearance. </p>
+        <h3>What is the closing date for applications? </h3>
+        <p>If there is a closing date it will be stated in the advert. If there is no closing date stated in the advert then we will accept applications throughout the recruitment season until the position (s) are filled. </p>
+        <h3>What shall I include in my application? </h3>
+        <p>The more information you include the better. Please always ensure that you have clearly stated the names of the schools where you have worked, accurate employment dates and the age groups and curriculums you have taught.</p>
+        <h3>What is the interview process? </h3>
+        <ul>
+            <li>If your application is found suitable you will receive a pre-screening call from HR Department.</li>
+            <li>If you pass the Pre-screening process, then you have to sit for a short written exam.</li>
+            <li>If your pre-screening and written exam marks are suitable, then an interview will made with Principal and Board of Directors.</li>
+        </ul>
+        <h3>What documents will I have to provide? </h3>
+        <p>Upon final selection candidates are required to provide copies of valid passport or National Id Card, attested qualification certificates (degree and teaching qualification) and recent police clearance. </p>
+        <h3>If my application is not successful will I be informed?</h3>
+        <p>Due to the volume of applications we receive it is not possible to respond to all applicants individually. Only selected applicants will be contacted. However if you attend an interview then you will be informed whether you have been successful or unsuccessful,  and if unsuccessful you will have the opportunity to receive feedback on your interview. </p>
+        <a href="#" class="btn">Apply Now</a>
+        </div>
+    </section>
+   <!-- application section end -->
+   <!-- get-in-touch-section-start -->
+<section class="get-in-touch get">
     <div class="container">
     <div class="row">
         <div class="col-md-6">
@@ -93,7 +123,7 @@ SAY SOMETHING</h4>
 					</div>
 					
 					<div class="form-group">
-                    <input type="button" class="btn  btnn" value="SEND">
+                    <input type="submit"class="btn" value="SEND">
                   
                     </div>
 				</form>
@@ -103,6 +133,7 @@ SAY SOMETHING</h4>
     </div>
     </div>
 </section>
+<!-- get-in-touch-section-start -->
 <!-- footer-start -->
 <section class="mt-3">
 <div class="container">
@@ -123,6 +154,7 @@ SAY SOMETHING</h4>
 </scection>
 
 <!-- footer-end -->
+   
 	<!-- JS FILES  -->
   <script src="assets/js/script.js"></script>
 	<script src="assets/js/jquery-3.4.1.min.js"></script>

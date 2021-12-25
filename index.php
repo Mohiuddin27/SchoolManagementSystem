@@ -32,15 +32,16 @@
                 <li class="nav-item">
                     <a class="nav-link nav2" href="admission.php">Admission</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link nav2" href="#">Media</a>
-                 </li>
+                
                  <li class="nav-item">
                     <a class="nav-link nav2" href="about_us.php">About us</a>
                  </li>
                 <li class="nav-item">
                     <a class="nav-link nav2" href="contact_us.php">Contact</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link nav2" href="career.php">Career</a>
+                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle nav2" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Login
