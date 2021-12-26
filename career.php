@@ -11,7 +11,7 @@
 	<link rel="stylesheet" href="assets/css/responsive.css">
 
 </head>
-<body >
+<body>
 	
     <section class="header">
        <nav class="navbar  navbar-expand-lg navbar-light bg-black">
@@ -65,33 +65,68 @@
     <section class="application">
         <div class="container">
         <h2 class="text-center pt-5">Application Process</h2>
-        <p>Our Little Masters’ International School is an English medium school requiring that teachers be fluent in English.</p>
         <span ></span>
+        <p style="font-size:20px"class="text-center mt-3 pb-5">High is a nationally recognized K-12 independent school situatedin the hills of Oakland, California. Our mission is to inspire a maplifelonglove of learning with
+      a focus on scholarship. For 23 years of existence,Ed hasmore.</p>
 
-        <h3>When should I apply? </h3>
-        <p>Recruitment activities take place throughout the year, concentrated mainly in December-January and May-June.</p>
-        <h3>How do I find out what positions are available? </h3>
-        <p>All of our vacancies are advertised on our website or newspaper .Upon final selection candidates are required to provide copies of valid passport or National Id Card, attested qualification certificates (degree and teaching qualification) and recent police clearance. </p>
-        <h3>What is the closing date for applications? </h3>
-        <p>If there is a closing date it will be stated in the advert. If there is no closing date stated in the advert then we will accept applications throughout the recruitment season until the position (s) are filled. </p>
-        <h3>What shall I include in my application? </h3>
-        <p>The more information you include the better. Please always ensure that you have clearly stated the names of the schools where you have worked, accurate employment dates and the age groups and curriculums you have taught.</p>
-        <h3>What is the interview process? </h3>
-        <ul>
-            <li>If your application is found suitable you will receive a pre-screening call from HR Department.</li>
-            <li>If you pass the Pre-screening process, then you have to sit for a short written exam.</li>
-            <li>If your pre-screening and written exam marks are suitable, then an interview will made with Principal and Board of Directors.</li>
-        </ul>
-        <h3>What documents will I have to provide? </h3>
-        <p>Upon final selection candidates are required to provide copies of valid passport or National Id Card, attested qualification certificates (degree and teaching qualification) and recent police clearance. </p>
-        <h3>If my application is not successful will I be informed?</h3>
-        <p>Due to the volume of applications we receive it is not possible to respond to all applicants individually. Only selected applicants will be contacted. However if you attend an interview then you will be informed whether you have been successful or unsuccessful,  and if unsuccessful you will have the opportunity to receive feedback on your interview. </p>
-        <a href="#" class="btn">Apply Now</a>
-        </div>
+        
     </section>
    <!-- application section end -->
-   <!-- get-in-touch-section-start -->
-<section class="get-in-touch get">
+   <section class="vac">
+       <div class="container">
+           <h3 class="text-center pt-3">Current Vacancies</h3>
+           <span ></span>
+           <div class="row">
+               <div class="col-md-4">
+                 <div class="card h-100">
+                     <img src="media/b11.jpg">
+                     <div class="card-body">
+                         <h5>Covid 19 (Corona Virus)</h5>
+                     <p>
+Due to unavoidable circumstances, Little Masters International School has been postponed all the quizzes, assignments, projects and marks on attendance till further notice. Stay Home</p>
+                     </div>
+                 </div>
+               </div>
+               <div class="col-md-4">
+               <div class="card h-100">
+               <img style="height:190px;"src="media/b12.jpg">
+                     <div class="card-body">
+                     <h5>International Mother Language Day</h5>
+                     <p>
+                     Dear Students, We are going to celebrate International Mother Language Day on February 20, 2020 Thursday. Students are informed to attend the program. </p>
+                     </div>
+                 </div>
+               </div>
+               <div class="col-md-4">
+               <div class="card h-100">
+               <img style="height:190px;"src="media/b13.jpg">
+                     <div class="card-body">
+                     <h5>Parents-Teachers Meeting</h5>
+                     <p>
+                     Respected Guardians, There will be a Parents-Teachers meeting on February 08, 2020 Saturday. On that day we will discuss about your child’s progress.</p>
+                         
+                     </div>
+                 </div>
+               </div>
+           </div>
+       </div>
+   </section>
+   <section class="apply">
+       <div class="container">
+           <div class="row">
+               <div class="col-md-6 appp">
+                 <h3>Apply Now</h3>
+                 <span></span>
+                 <p>High is a nationally recognized K-12 independent school situatedin the hills of Oakland, California. Our mission is to inspire a maplifelonglove of learning with a focus on scholarship. For 23 years of existence,Ed hasmore.</p>
+                 <a href="https://britishstandardschool.com/Career"class="btn">Learn More</a>
+               </div>
+               <div class="col-md-6 app">
+                   <img src="media/b14.jpg">
+               </div>
+           </div>
+       </div>
+   </section>
+   <section class="get-in-touch pt-5">
     <div class="container">
     <div class="row">
         <div class="col-md-6">
@@ -123,7 +158,7 @@ SAY SOMETHING</h4>
 					</div>
 					
 					<div class="form-group">
-                    <input type="submit"class="btn" value="SEND">
+                    <input type="button" class="btn  btnn" value="SEND">
                   
                     </div>
 				</form>
@@ -133,8 +168,6 @@ SAY SOMETHING</h4>
     </div>
     </div>
 </section>
-<!-- get-in-touch-section-start -->
-<!-- footer-start -->
 <section class="mt-3">
 <div class="container">
   <div class="row">
@@ -152,7 +185,6 @@ SAY SOMETHING</h4>
   </div>
 </div>
 </scection>
-
 <!-- footer-end -->
    
 	<!-- JS FILES  -->

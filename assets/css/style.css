@@ -411,27 +411,73 @@ footer {
     background-color: #88C83C;
     
 }
+.application{
+    background-color: #fff;
+}
 .application h2{
-    color:white;
+    color:rgb(7, 7, 7);
 }
-.application h3{
-    color:#88C83C;
-}
+
 .application p, ul li{
-    color:white;
+    color:rgb(17, 17, 17);
 }
 .application span{
-    width:20%;
+    width:15%;
     display:block;
-    border:2px solid white;
+    border:2px solid rgb(29, 28, 28);
     margin:0 auto;
     text-align: center;
-    margin-bottom:80px;
+    
 }
-.application .btn{
-    width:100%;
-    background-color:#4F7423;
+.vac{
+    background:url('media/b10.png')!important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.vac h3{
     color:white;
-    padding:10px 300px 10px 300px;
-    margin-bottom:20px;
 }
+.vac span{
+    width:15%;
+    display:block;
+    border:1px solid rgb(243, 243, 243);
+    margin:0 auto;
+    text-align: center;
+    margin-bottom:50px;
+}
+.apply{
+    margin-top:50px;
+    background-color: #fff;
+}
+.appp span{
+    width:15%;
+    display:block;
+    border:2px solid rgb(0, 0, 0);
+    text-align: left;
+    margin-bottom:10px;
+    
+}
+.appp h3{
+    font-weight:600;
+    margin-top:220px;
+}
+.appp p{
+    font-weight:500;
+}
+.app img{
+    margin-top:30px;
+    width:100%;
+   
+}
+.appp a{
+    background-color: #161E4D;
+    color:white;
+    border-radius: 30px;
+    padding-left:20px;
+    padding-right:20px;
+}
+.appp a:hover{
+    color:white;
+}
+
