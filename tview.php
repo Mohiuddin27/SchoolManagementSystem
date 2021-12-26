@@ -28,7 +28,7 @@
                         <div class="collapse navbar-collapse heade" id="navbarNavDropdown">
                            <ul class="navbar-nav ml-auto">
                                     <li class="nav-item">
-                                       <a class="nav-link nav1" href="#"><i class="fas fa-user-graduate"></i> Student Panel</a>
+                                    <a class="nav-link nav1" href="#"><i class="fas fa-chalkboard-teacher"></i> Teacher Panel</a>
                                    </li>
                
                                    <li class="nav-item dropdown">
