@@ -129,10 +129,14 @@ Building on a legacy of distinction, it is our mission to serve as a model for e
                 <div class="card-body">
                     <h4 class="mb-5" style="font-weight:600">
 SAY SOMETHING</h4>
-                <form action="" >
+                <form action="email.php" method="POST" >
 					<div class="form-group">
 						
 						<input style="border:2px solid #88C83C" name="name" placeholder="Name"class="form-control" type="text">
+					</div>
+                    <div class="form-group">
+						
+						<input style="border:2px solid #88C83C" name="subject" placeholder="Subject" class="form-control" type="text">
 					</div>
 					<div class="form-group">
 						
@@ -140,11 +144,11 @@ SAY SOMETHING</h4>
 					</div>
 					<div class="form-group">
 						
-                    <textarea style="border:2px solid #88C83C"  class="form-control rounded-0" placeholder="Message" rows="5"></textarea>
+                    <textarea style="border:2px solid #88C83C" name="msg" class="form-control rounded-0" placeholder="Message" rows="5"></textarea>
 					</div>
 					
 					<div class="form-group">
-                    <input type="button" class="btn  btnn" value="SEND">
+                    <input type="submit" class="btn  btnn" name="send" value="SEND">
                   
                     </div>
 				</form>

@@ -80,15 +80,15 @@
          <div class="row">
              <div class="col-md-4 text-center">
               <img class="w-25" src="media/01.png"><br><br>
-              <a href="#">HOW TO APPLY</a>
+              <a href="apply.php">HOW TO APPLY</a>
              </div>
              <div class="col-md-4 text-center">
              <img  class="w-25" src="media/02.png"><br><br>
-              <a href="#">ADMISSION FORM</a>
+              <a href="form.php">ADMISSION FORM</a>
              </div>
              <div class="col-md-4 text-center">
              <img  class="w-25 mt-1" src="media/03.png"><br><br>
-              <a class="mt-5" href="#">FEES POLICY</a>
+              <a class="mt-5" href="fees.php">FEES POLICY</a>
              </div>
          </div>
      </div>

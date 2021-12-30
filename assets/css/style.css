@@ -480,4 +480,16 @@ footer {
 .appp a:hover{
     color:white;
 }
+.btn-b{
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    font-size: 600;
+    background-color: #88C83C;
+    width: 100%;
+    border:none;
+    font-size:30px;
+    font-weight: 600;
+    margin-bottom:30px;
+}
 
