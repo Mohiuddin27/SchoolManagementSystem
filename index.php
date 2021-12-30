@@ -95,7 +95,7 @@
 
             </div>
             <div class="col-md-5">
-                <img style="display:block;margin:0px auto;" src="media/side1.png" alt="rightside">
+               <a href="admit.php"> <img style="display:block;margin:0px auto;" src="media/side1.png" alt="rightside"></a>
 
             </div>
         </div>
