@@ -65,7 +65,7 @@
           <h6 style="color:white">[ Session : [July 2021-June 2022]</h6>
           <div class="row">
               <div class="col-md-8 offset-2">
-               <table class="table mt-5">
+               <table class="table table1 mt-5">
                <thead>
                         <tr>
                         
@@ -136,6 +136,136 @@
       </ul>
       </div>
   </section>
+  <section class="cls_sec">
+      <div class="container">
+          <div class="row">
+              <h2 style="color:#8B6700;display:block;margin:auto;">STUDENT'S AGE</h2><br><br>
+              
+              <div class="col-md-8 offset-2 text-center">
+              <p style="color:white;display:block;margin:auto;margin-bottom:40px">LIMIT FOR THE FOLLOWING CLASS</p>
+                  <div class="btn-group ">
+                    <button type="button" class="btn btn1 mr-3">Junior Section</button>
+                    <button type="button" class="btn btn-info btn2 mr-3">Middle Section</button>
+                    <button type="button" class="btn btn-danger btn3">Senior Section</button>
+                  </div><br><br><br>
+                  <div class="col-md-8 offset-2">
+               <table class="table junior">
+               <thead>
+                        <tr>
+                        
+                        <th>Class</th>
+                        <th>Age Limit</th>
+                       
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr style="color:white" class="table-row">
+                        <td>Class 1</td>
+                        <td >7 to 8 years</td>
+                        </tr>
+                        <tr style="color:white" class="table-row">
+                        <td>Class 2</td>
+                        <td >8 to 9 years</td>
+                        </tr>
+                        <tr style="color:white" class="table-row">
+                        <td>Class 3</td>
+                        <td>9 to 10 years</td>
+                        </tr>
+                   </tbody>
+               </table>
+                   
+
+              </div>
+              <div class="col-md-8 offset-2">
+               <table class="table middle">
+               <thead>
+                        <tr>
+                        
+                        <th>Class</th>
+                        <th>Age Limit</th>
+                       
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr style="color:white" class="table-row">
+                        <td>Class 4</td>
+                        <td >10 to 11 years</td>
+                        </tr>
+                        <tr style="color:white" class="table-row">
+                        <td>Class 5</td>
+                        <td >11 to 12 years</td>
+                        </tr>
+                        <tr style="color:white" class="table-row">
+                        <td>Class 6</td>
+                        <td>12 to 13 years</td>
+                        </tr>
+                   </tbody>
+               </table>
+                   
+
+              </div>
+              <div class="col-md-8 offset-2">
+               <table class="table senior">
+               <thead>
+                        <tr>
+                        
+                        <th>Class</th>
+                        <th>Age Limit</th>
+                       
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr style="color:white" class="table-row">
+                        <td>Class 7</td>
+                        <td >13 to 14 years</td>
+                        </tr>
+                        <tr style="color:white" class="table-row">
+                        <td>Class 8</td>
+                        <td >14 to 15 years</td>
+                        </tr>
+                        <tr style="color:white" class="table-row">
+                        <td>Class 9</td>
+                        <td>15 to 16 years</td>
+                        </tr>
+                   </tbody>
+               </table>
+                   
+
+              </div>
+          </div>
+      </div>
+  </section>
+  <div class="container">
+      <div class="sample-text">
+          <h2 class="text-center"style="color:#8b6700;margin-top:210px">SCHOOL DECLARATION</h2>
+          <p class="text-center" style="color:white">The age limit mentioned above is based on international standard. for any exception,the BSS admission board reserves the right to review the student's eligible class criteria for admission.
+
+
+
+
+</p>
+      </div>
+  </div>
+  <!-- footer-start -->
+<section class="mt-3">
+<div class="container">
+  <div class="row">
+    <div class="col-md-7">
+    <img src="media/b1.png" alt="b1">
+    <img src="media/b2.png" alt="b2">
+      
+    </div>
+    <div class="col-md-5 text-center">
+    <i class="fab fa-facebook"></i>
+    <i class="fab fa-twitter"></i>
+    <i class="fab fa-youtube"></i>
+    <i class="fas fa-envelope"></i>
+    </div>
+  </div>
+</div>
+</scection>
+
+<!-- footer-end -->
 
 
 	<!-- JS FILES  -->
@@ -144,5 +274,28 @@
 	<script src="assets/js/popper.min.js"></script>
 	<script src="assets/js/bootstrap.min.js"></script>
 	<script src="assets/js/custom.js"></script>
+    <script>
+        $('.junior').show();
+        $('.middle').hide();
+        $('.senior').hide();
+        $('.btn1').click(function(){
+            $('.junior').show()
+            $('.middle').hide()
+            $('.senior').hide()
+
+        });
+        $('.btn2').click(function(){
+            $('.junior').hide()
+            $('.middle').show()
+            $('.senior').hide()
+
+        });
+        $('.btn3').click(function(){
+            $('.junior').hide()
+            $('.middle').hide()
+            $('.senior').show()
+
+        });
+    </script>
 </body>
 </html>
