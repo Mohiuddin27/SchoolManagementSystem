@@ -59,7 +59,7 @@
 
    </section>
    <section>
-       <img style="width:100%"src="media/b8.png">
+       <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.832757170117!2d90.4153034149807!3d23.717665684605567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b854b8e29963%3A0x4b7d813cdf6e49d7!2sBritish%20Standard%20School!5e0!3m2!1sen!2sbd!4v1640968253765!5m2!1sen!2sbd" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></p>
   </section>
   <section class="get-in-touch ">
     <div class="container">
