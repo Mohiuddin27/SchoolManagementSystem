@@ -78,22 +78,22 @@
                 <div class="card-body">
                     <h4 class="mb-5" style="font-weight:600">
 SAY SOMETHING</h4>
-                <form action="" >
+                <form action="" id="myform" >
 					<div class="form-group">
 						
-						<input style="border:2px solid #88C83C" name="name" placeholder="Name"class="form-control" type="text">
+						<input id="name" style="border:2px solid #88C83C" name="name" placeholder="Name"class="form-control" type="text">
 					</div>
 					<div class="form-group">
 						
-						<input style="border:2px solid #88C83C" name="email" placeholder="Email" class="form-control" type="text">
+						<input id="email" style="border:2px solid #88C83C" name="email" placeholder="Email" class="form-control" type="text">
 					</div>
 					<div class="form-group">
 						
-                    <textarea style="border:2px solid #88C83C"  class="form-control rounded-0" placeholder="Message" rows="5"></textarea>
+                    <textarea id="body" style="border:2px solid #88C83C" name="msg" class="form-control rounded-0" placeholder="Message" rows="5"></textarea>
 					</div>
 					
 					<div class="form-group">
-                    <input type="button" class="btn  btnn" value="SEND">
+                    <input id="submit" onclick="sendEmail()" type="button" class="btn  btnn" name="submit" value="SEND">
                   
                     </div>
 				</form>
@@ -129,5 +129,38 @@ SAY SOMETHING</h4>
 	<script src="assets/js/popper.min.js"></script>
 	<script src="assets/js/bootstrap.min.js"></script>
 	<script src="assets/js/custom.js"></script>
+  <script>
+   function sendEmail() {
+            var name = $("#name");
+            var email = $("#email");
+            var body = $("#body");
+
+            if (isNotEmpty(name) && isNotEmpty(email)  && isNotEmpty(body)) {
+                $.ajax({
+                   url: 'sendEmail.php',
+                   method: 'POST',
+                   dataType: 'json',
+                   data: {
+                       name: name.val(),
+                       email: email.val(),
+                       body: body.val()
+                   }, success: function (response) {
+                        $('#myForm')[0].reset();
+                        $('.sent-notification').text("Message Sent Successfully.");
+                   }
+                });
+            }
+        }
+
+        function isNotEmpty(caller) {
+            if (caller.val() == "") {
+                caller.css('border', '1px solid red');
+                return false;
+            } else
+                caller.css('border', '');
+
+            return true;
+        }
+    </script>
 </body>
 </html>
